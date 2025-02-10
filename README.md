@@ -57,3 +57,6 @@ yarn dev
 [project ฝึกหัด](https://pyr.vercel.app/)
 - ใช้ css และ scss
 - [about project](https://pyr.vercel.app/about-page)
+
+## Resume 
+[Resume-Peeraphon Singla 2025.pdf](https://github.com/user-attachments/files/18740868/Resume-Peeraphon.Singla.2025.pdf)
