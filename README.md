@@ -59,8 +59,13 @@ yarn dev
 
 ## สามารถเยี่ยมชม project ฝึกหัดของผมได้
 [project ฝึกหัด](https://pyr.vercel.app/)
+- nextjs
 - ใช้ css และ scss
 - styled-component
+- nestjs
+- typeorm
+- vercel (web hosting)
+- react-query
 - [about project](https://pyr.vercel.app/about-page)
 
 ## Resume 
