@@ -9,7 +9,7 @@
 - frontend: nextjs (สามารถใช้ api ใน nextjs ในการทำเป็น gateway ได้)
 - backend: nestjs
 
-## requirement (ที่เข้าผมใจ)
+## requirement (ที่ผมเข้าใจ)
 - feed(home) page ไม่ต้อง login สามารถดู feed ได้
 - หากใน feed(home) page ถ้าไม่ได้ login และคลิกปุ่ม create จะต้อง redirect ไปที่ login page
 - หาก login แล้วสามารถเข้าไปที่เมนู our blog ได้ ดู blog ที่ตัวเองเคย post ได้ สามารถแก้ไขและลบ post ที่เคย post ไว้ได้
