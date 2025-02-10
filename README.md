@@ -53,6 +53,8 @@ yarn dev
 - สำหรับ tailwind กับ mui ค่อนข้างจะติดปัญหาบางที่ต้องใช้ !important ในหลายๆเคส เพราะ styles ของ mui จะ priority เยอะกว่า(ในบาง component)
 - design ui ใน figma บางอันค่อนข้างงง
 - ไม่ได้ optimize code พอสมควรเพราะรีบทำครับ
+- ไม่แน่ใจกับการ login อยากให้เป็นแบบไหน jwt, oauth,... บลาๆ
+- comment ต้องการ web socket หรือไม่สำหรับ assignment (สำหรับ real-time คล้ายๆ messenger) 
 
 
 ## สามรถเยี่ยมชม project ฝึกหัดของผมได้
