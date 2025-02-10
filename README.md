@@ -14,6 +14,7 @@
   - react context
 - backend:
   - nestjs
+    - typeorm (ช่วยจัดการ query โดยที่ไม่ต้องเขียน sql เพราะตัว orm จะจัดการให้)
     - sqlite (in-memory)
 
 ## requirement (ที่ผมเข้าใจ)
