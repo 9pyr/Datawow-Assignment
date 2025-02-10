@@ -66,6 +66,7 @@ yarn dev
 - typeorm
 - vercel (web hosting)
 - react-query
+- supabase (posgresql)
 - [about project](https://pyr.vercel.app/about-page)
 
 ## Resume 
