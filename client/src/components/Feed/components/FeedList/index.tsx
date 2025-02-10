@@ -9,7 +9,6 @@ import {
 } from "@mui/material"
 import Badge from "@/components/Badge"
 import CountComment from "@/components/CountComment"
-import Create from "../Create"
 import Delete from "../Delete"
 import Edit from "../Edit"
 import Empty from "../Empty"
@@ -30,19 +29,14 @@ interface FeedListProps
 }
 
 const FeedList = ({
-  data = [],
+  data,
   onUpdate,
   onDelete,
   searchValue,
-  isCreate,
   isLoading,
 }: FeedListProps) => {
   if (isLoading) {
     return <Loading />
-  }
-
-  if (isEmpty(data) && isCreate) {
-    return <Create />
   }
 
   if (!data || isEmpty(data)) {

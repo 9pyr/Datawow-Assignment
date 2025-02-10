@@ -1,4 +1,5 @@
 import { Typography } from "@mui/material"
+import Link from "next/link"
 import React from "react"
 
 const Logo = () => {
@@ -6,10 +7,11 @@ const Logo = () => {
     <Typography
       variant="h6"
       noWrap
-      component="div"
+      component={Link}
       fontFamily="Castoro"
       fontStyle="italic"
       flexGrow={1}
+      href="/"
     >
       a Board
     </Typography>
