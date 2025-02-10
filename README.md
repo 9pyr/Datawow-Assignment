@@ -1,4 +1,4 @@
-# Datawow-Assignment
+# Datawow Assignment
 
 - login ด้วยชื่ออะไรก็ได้ (ตาม design จริงๆจะเอา jwt หรืออื่นๆมาใช่ร่วมก็ได้)
 - สามารถลบ cookie ออกและ refresh(F5) เพื่อให้สามารถ login ใหม่ โดยที่ post ใน filter ใน our blog จะ filter ตาม username
