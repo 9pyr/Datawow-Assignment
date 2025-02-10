@@ -6,8 +6,15 @@
 - พอดีทำเป็น DB แบบ in-memory (ใช้แรมเก็บเป็นข้อมูลชั่วคราวคิดว่าจะเร็วกว่าสำหรับการทำ assignment ครับ) ก็คือถ้า service ถูก re-run ใหม่ ข้อมูลจะหายครับ
 
 ## tech stack
-- frontend: nextjs (สามารถใช้ api ใน nextjs ในการทำเป็น gateway ได้)
-- backend: nestjs
+- frontend:
+  - nextjs (สามารถใช้ api ใน nextjs ในการทำเป็น gateway ได้)
+  - tailwind
+  - mui
+  - react-query
+  - react context
+- backend:
+  - nestjs
+    - sqlite (in-memory)
 
 ## requirement (ที่ผมเข้าใจ)
 - feed(home) page ไม่ต้อง login สามารถดู feed ได้
@@ -21,3 +28,7 @@
 - ตอนที่ search จะทำ highlight ข้อความ title (อันนี้จะไม่มี filter ด้วย service (เดาตาม figma ที่แค่ highlight คำว่า Be))
 - ถ้ามีการ filter ด้วย community จะ filter ด้วย service
 
+## ปัญหาที่เจอ
+- พยายามใช้ recoil ใน project เพระามันเหมาะกับ project เล็กๆ แต่เหมือนจะติดปัญหาก็เลยไปใช้ react-query แทนเพราะเป็น server state ค้อนข้างจพสะดวกกว่า
+- และด้วย next new version บาง func ใช้ไม่ได้ อย่างเช่น getServerSideProps
+- สำหรับ tailwind กับ mui ค่อนข้างจะติดปัญหาบางที่ต้องใช้ !important ในหลายๆเคส เพราะ styles ของ mui จะ priority เยอะกว่า(ในบาง component)
