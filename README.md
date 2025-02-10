@@ -31,6 +31,7 @@ yarn dev
 - highlight menu ถ้า pathname ตรงกับ pathname ที่ avtive อยู่
 - ตอนที่ search จะทำ highlight ข้อความ title (อันนี้จะไม่มี filter ด้วย service (เดาตาม figma ที่แค่ highlight คำว่า Be))
 - ถ้ามีการ filter ด้วย community จะ filter ด้วย service
+- รองรับการแสดง ui แบบ responsive ได้
 
 ## tech stack
 - frontend:
