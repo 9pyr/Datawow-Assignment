@@ -39,4 +39,4 @@
 
 
 ## สามรถเยี่ยมชม project ฝึกหัดของผมได้
-(project ฝึกหัด)[https://pyr.vercel.app/]
+[project ฝึกหัด](https://pyr.vercel.app/)
