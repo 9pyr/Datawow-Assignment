@@ -28,7 +28,7 @@ yarn dev
 - ถ้ายังไม่ได้ login หากมีการคลิกปุ่ม add comment ให้ redirect ไปที่ login page
 - หลังจาก post จะต้อง clear values ใน form
 - หากมีการแก้ไขจะต้อง default values ให้ใน form เช่นตอนที่ open modal ขึ้นมาหากเป็น post ที่มีข้อมูลอยู่แล้วควรจะ default values ให้
-- highlight menu ถ้า pathname ตรงกับ pathname ที่ avtive อยู่
+- highlight menu ถ้า pathname ตรงกับ pathname ที่ active อยู่
 - ตอนที่ search จะทำ highlight ข้อความ title (อันนี้จะไม่มี filter ด้วย service (เดาตาม figma ที่แค่ highlight คำว่า Be))
 - ถ้ามีการ filter ด้วย community จะ filter ด้วย service
 - รองรับการแสดง ui แบบ responsive ได้
