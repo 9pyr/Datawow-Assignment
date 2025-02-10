@@ -1,5 +1,19 @@
 # Datawow Assignment
 
+start service
+```sh
+cd service
+yarn
+yarn start:dev
+```
+
+start client
+```sh
+cd client
+yarn
+yarn dev
+```
+
 - login ด้วยชื่ออะไรก็ได้ (ตาม design จริงๆจะเอา jwt หรืออื่นๆมาใช่ร่วมก็ได้)
 - สามารถลบ cookie ออกและ refresh(F5) เพื่อให้สามารถ login ใหม่ โดยที่ post ใน filter ใน our blog จะ filter ตาม username
 - ต้องรัน service ก่อนแล้วค่อย create post ใน client หลัง login นะครับ
