@@ -57,7 +57,7 @@ yarn dev
 - comment ต้องการ web socket หรือไม่ สำหรับ assignment (สำหรับ real-time คล้ายๆ messenger) 
 
 
-## สามรถเยี่ยมชม project ฝึกหัดของผมได้
+## สามารถเยี่ยมชม project ฝึกหัดของผมได้
 [project ฝึกหัด](https://pyr.vercel.app/)
 - ใช้ css และ scss
 - [about project](https://pyr.vercel.app/about-page)
