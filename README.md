@@ -36,3 +36,7 @@
 - และด้วย next new version บาง func ใช้ไม่ได้ อย่างเช่น getServerSideProps
 - สำหรับ tailwind กับ mui ค่อนข้างจะติดปัญหาบางที่ต้องใช้ !important ในหลายๆเคส เพราะ styles ของ mui จะ priority เยอะกว่า(ในบาง component)
 - ไม่ได้ optimize code พอสมควรเพราะรีบทำครับ
+
+
+## สามรถเยี่ยมชม project ฝึกหัดของผมได้
+(project ฝึกหัด)[https://pyr.vercel.app/]
