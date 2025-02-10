@@ -1,7 +1,7 @@
 import { List } from "@mui/material"
 import React from "react"
 import MenuItem from "../MenuItem"
-import { MenuModel } from "../../types"
+import { MenuModel } from "@/components/Layout/types"
 
 interface MenuProps {
   menu: MenuModel[]

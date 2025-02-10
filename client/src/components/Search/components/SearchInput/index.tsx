@@ -1,7 +1,6 @@
-import { InputAdornment, TextField, TextFieldProps } from "@mui/material"
-import React from "react"
+import { SearchProps } from "@/components/Search"
 import SearchIcon from "@mui/icons-material/Search"
-import { SearchProps } from "../.."
+import { InputAdornment, TextField, TextFieldProps } from "@mui/material"
 
 const SearchInput = ({
   onBlur,

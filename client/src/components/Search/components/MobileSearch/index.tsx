@@ -1,10 +1,10 @@
-import { Grid2, IconButton } from "@mui/material"
-import React, { useState } from "react"
 import CreateBlogButton from "@/components/CreateBlogButton"
+import { SearchProps } from "@/components/Search"
 import SearchIcon from "@mui/icons-material/Search"
+import { Grid2, IconButton } from "@mui/material"
+import { useState } from "react"
 import CommunityFilter from "../CommunityFilter"
 import SearchInput from "../SearchInput"
-import { SearchProps } from "../.."
 
 const MobileSearch = (props: SearchProps) => {
   const [isOpen, setOpen] = useState(false)

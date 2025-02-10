@@ -1,9 +1,8 @@
-import { Grid2 } from "@mui/material"
-import React from "react"
 import CreateBlogButton from "@/components/CreateBlogButton"
-import SearchInput from "../SearchInput"
+import { SearchProps } from "@/components/Search"
+import { Grid2 } from "@mui/material"
 import CommunityFilter from "../CommunityFilter"
-import { SearchProps } from "../.."
+import SearchInput from "../SearchInput"
 
 const DesktopSearch = (props: SearchProps) => {
   return (

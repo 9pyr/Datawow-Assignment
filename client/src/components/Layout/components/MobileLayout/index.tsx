@@ -1,11 +1,11 @@
-import { AppBar, Drawer, IconButton, Toolbar } from "@mui/material"
-import React, { useState } from "react"
-import MenuIcon from "@mui/icons-material/Menu"
-import ArrowForwardRoundedIcon from "@mui/icons-material/ArrowForwardRounded"
 import { DRAWER_MOBILE_WIDTH } from "@/components/Layout/constants"
-import { MenuModel } from "../../types"
-import Menu from "../Menu"
+import { MenuModel } from "@/components/Layout/types"
+import ArrowForwardRoundedIcon from "@mui/icons-material/ArrowForwardRounded"
+import MenuIcon from "@mui/icons-material/Menu"
+import { AppBar, Drawer, IconButton, Toolbar } from "@mui/material"
+import { useState } from "react"
 import Logo from "../Logo"
+import Menu from "../Menu"
 
 interface MobileLayoutProps {
   menu: MenuModel[]

@@ -15,12 +15,12 @@ import Empty from "../Empty"
 import Highlighter from "react-highlight-words"
 import Link from "next/link"
 import React from "react"
-import { FeedProps } from "../.."
 import { PostModel } from "@/app/(board)/feed/types"
 import { SearchProps } from "@/components/Search"
 import { isEmpty, isFunction } from "lodash"
-import { mapCommunity } from "../../constants"
 import Loading from "@/components/Loading"
+import { FeedProps } from "@/components/Feed"
+import { mapCommunity } from "@/components/Feed/constants"
 
 interface FeedListProps
   extends Pick<FeedProps, "data" | "onDelete" | "onUpdate" | "isCreate">,

@@ -6,7 +6,7 @@ import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown"
 import { ListItemIcon, Typography } from "@mui/material"
 import CheckIcon from "@mui/icons-material/Check"
 import { communityOptions } from "@/components/Feed/constants"
-import { SearchProps } from "../.."
+import { SearchProps } from "@/components/Search"
 
 const CommunityFilter = ({ searchValue, setSearch }: SearchProps) => {
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null)

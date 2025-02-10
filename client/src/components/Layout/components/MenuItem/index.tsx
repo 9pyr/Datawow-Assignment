@@ -6,8 +6,8 @@ import {
 } from "@mui/material"
 import Link from "next/link"
 import React from "react"
-import { MenuModel } from "../../types"
 import { usePathname } from "next/navigation"
+import { MenuModel } from "@/components/Layout/types"
 
 const MenuItem = ({ pathname: initialPathname, icon, label }: MenuModel) => {
   const pathname = usePathname()

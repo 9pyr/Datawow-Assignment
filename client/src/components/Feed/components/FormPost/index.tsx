@@ -1,8 +1,7 @@
-import { Grid2 } from "@mui/material"
-import React from "react"
-import Select from "@/components/Form/Select"
 import { communityOptions } from "@/components/Feed/constants"
 import Input from "@/components/Form/Input"
+import Select from "@/components/Form/Select"
+import { Grid2 } from "@mui/material"
 
 const FormPost = () => {
   return (
