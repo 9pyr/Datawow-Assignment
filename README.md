@@ -49,6 +49,7 @@ yarn dev
 - พยายามใช้ recoil ใน project เพราะมันเหมาะกับ project เล็กๆ แต่เหมือนจะติดปัญหาก็เลยไปใช้ react-query แทนเพราะเป็น server state ค่อนข้างจะสะดวกกว่า (หมายถึงว่าจัดการ state หรือ data ที่ได้จาก service)
 - และด้วย next new version บาง func ใช้ไม่ได้ อย่างเช่น getServerSideProps
 - สำหรับ tailwind กับ mui ค่อนข้างจะติดปัญหาบางที่ต้องใช้ !important ในหลายๆเคส เพราะ styles ของ mui จะ priority เยอะกว่า(ในบาง component)
+- design ui ใน figma บางอันค่อนข้างงง
 - ไม่ได้ optimize code พอสมควรเพราะรีบทำครับ
 
 
