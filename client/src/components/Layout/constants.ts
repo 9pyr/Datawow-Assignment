@@ -1,0 +1,3 @@
+export const DRAWER_DESKTOP_WIDTH = 220
+
+export const DRAWER_MOBILE_WIDTH = 240
