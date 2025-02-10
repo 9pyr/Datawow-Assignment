@@ -60,6 +60,7 @@ yarn dev
 ## สามารถเยี่ยมชม project ฝึกหัดของผมได้
 [project ฝึกหัด](https://pyr.vercel.app/)
 - ใช้ css และ scss
+- styled-component
 - [about project](https://pyr.vercel.app/about-page)
 
 ## Resume 
