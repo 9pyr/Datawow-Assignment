@@ -35,8 +35,7 @@ yarn dev
 
 ## ปัญหาที่เจอ
 - design ui ใน figma บางอันค่อนข้างงง
-- ไม่ได้ optimize code พอสมควรเพราะรีบทำครับ
-- ไม่แน่ใจกับการ login อยากให้เป็นแบบไหน jwt, oauth,... บลาๆ
+- ไม่แน่ใจกับการ login อยากให้เป็นแบบไหน jwt, oauth, ฯลฯ
 - comment ต้องการ web socket หรือไม่ สำหรับ assignment
 
 ## tech stack
@@ -50,7 +49,7 @@ yarn dev
   - nestjs
   - typeorm (ช่วยจัดการ query โดยที่ไม่ต้องเขียน sql เพราะตัว orm จะจัดการให้)
   - sqlite (in-memory)
-  - 
+
 ## สามารถเยี่ยมชม project ฝึกหัดของผมได้
 [project ฝึกหัด](https://pyr.vercel.app/)
 
