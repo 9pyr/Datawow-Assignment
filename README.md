@@ -1,14 +1,5 @@
 # Datawow Assignment
 
-start service
-```sh
-cd service
-yarn
-yarn start:dev
-
-// port 3001
-```
-
 start client
 ```sh
 cd client
@@ -18,10 +9,18 @@ yarn dev
 // port 3000
 ```
 
+start service
+```sh
+cd service
+yarn
+yarn start:dev
+
+// port 3001
+```
+
 - login ด้วยชื่ออะไรก็ได้ (ตาม design จริงๆจะเอา jwt หรืออื่นๆมาใช่ร่วมก็ได้)
 - สามารถลบ cookie ออกและ refresh(F5) เพื่อให้สามารถ login ใหม่ โดยที่ post ใน filter ใน our blog จะ filter ตาม username
   - คลิกขวา Inspect > Application > Cookies > http://localhost:3000 (จะเจอ username หากได้ login ไปแล้ว)
-- ต้องรัน service ก่อนแล้วค่อย create post ใน client หลัง login นะครับ
 - พอดีทำเป็น DB แบบ in-memory (ใช้แรมเก็บเป็นข้อมูลชั่วคราวคิดว่าจะเร็วกว่าสำหรับการทำ assignment ครับ) ก็คือถ้า service ถูก re-run ใหม่ ข้อมูลจะหายครับ
 
 ## requirement (ที่ผมเข้าใจ)
