@@ -53,7 +53,7 @@ yarn start:dev
   - typeorm (ช่วยจัดการ query โดยที่ไม่ต้องเขียน sql เพราะตัว orm จะจัดการให้)
   - sqlite (in-memory)
 
-## สามารถเยี่ยมชม project ฝึกหัดของผมได้
+## profile web
 [project ฝึกหัด](https://pyr.vercel.app/)
 
 ## Resume 
