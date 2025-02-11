@@ -5,6 +5,8 @@ start service
 cd service
 yarn
 yarn start:dev
+
+// port 3001
 ```
 
 start client
@@ -12,6 +14,8 @@ start client
 cd client
 yarn
 yarn dev
+
+// port 3000
 ```
 
 - login ด้วยชื่ออะไรก็ได้ (ตาม design จริงๆจะเอา jwt หรืออื่นๆมาใช่ร่วมก็ได้)
