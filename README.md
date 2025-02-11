@@ -59,15 +59,6 @@ yarn dev
 
 ## สามารถเยี่ยมชม project ฝึกหัดของผมได้
 [project ฝึกหัด](https://pyr.vercel.app/)
-- nextjs
-- ใช้ css และ scss
-- styled-component
-- nestjs
-- typeorm
-- vercel (web hosting)
-- react-query
-- supabase (posgresql)
-- [about project](https://pyr.vercel.app/about-page)
 
 ## Resume 
 [Resume-Peeraphon Singla 2025.pdf](https://github.com/user-attachments/files/18740868/Resume-Peeraphon.Singla.2025.pdf)
